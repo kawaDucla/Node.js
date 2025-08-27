@@ -1,9 +1,36 @@
-.botoes{
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.botoes {
     display: flex;
     justify-content: space-between;
 }
-body{
-    display: grid;
+
+.corpo {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* height removido */
+}
+
+h1 {
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: #b287da !important;
+    margin: 0; /* importante para tirar margens padrão */
 }

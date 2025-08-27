@@ -1,14 +1,8 @@
 {
-  "name": "nodejs-learn",
+  "name":"API",
   "version": "1.0.0",
-  "description": "",
-  "main": "sever.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "index.js",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"

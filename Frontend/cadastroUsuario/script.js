@@ -1,6 +1,17 @@
+function cadastroUsuario(event){
+    event.preventDefault();
+
+    console.log(event);
+    console.log(event.target);
+    console.log(event.target.nome);
+    console.log(event.target.nome.value);
+
+    let nome = event.target.nome.value;
+    let idade = event.target.idade.value;
+    let senha = event.target.senha.value;
     
 
-fetch('http://localhost:3000', {
+fetch('http://localhost:3000/usuarios', {
 
     method: 'POST',
 
@@ -10,7 +21,12 @@ fetch('http://localhost:3000', {
 
     },
 
-    body: JSON.stringify(data)
+    body: JSON.stringify({
+        "nome":nome,
+        "idade": idade,
+        "senha": senha
+    })
+
 
 })
 
@@ -19,3 +35,4 @@ fetch('http://localhost:3000', {
     .then(data => console.log(data))
 
     .catch(error => console.log(error));
+}
