@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -15,7 +16,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height removido */
+
 }
 
 h1 {
@@ -31,6 +32,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-   background-color: #b287da !important;
-    margin: 0; /* importante para tirar margens padrão */
+    background-color: #b287da !important;
+    margin: 0;
 }

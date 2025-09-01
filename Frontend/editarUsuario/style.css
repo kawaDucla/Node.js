@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b287da !important;
+    margin: 0;
+}
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
