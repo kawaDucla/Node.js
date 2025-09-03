@@ -35,3 +35,12 @@ body {
     background-color: #b287da !important;
     margin: 0;
 }
+.botao{
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    border: 50px;
+    margin-top: 5px;
+    height: 5vh;
+    width: 5vw;
+}
